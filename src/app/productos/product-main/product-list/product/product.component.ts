@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { ProductosService } from 'src/app/productos/productos.service';
-import { Product } from 'src/app/productos/Product';
+import { ProductosService } from '../../../productos.service';
+import { Product } from '../../Product';
 
 
 @Component({
